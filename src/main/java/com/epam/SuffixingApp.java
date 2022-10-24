@@ -25,7 +25,7 @@ public class SuffixingApp {
         for (String originalFilePath : files) {
             File originalFile = new File(originalFilePath);
             if (!originalFile.exists()) {
-                logger.log(Level.INFO, "No such originalFilePath: {0}", originalFilePath);
+                logger.log(Level.SEVERE, "No such file: {0}", originalFilePath);
             } else {
                 String suffix = property.getProperty("suffix");
                 if (suffix.equalsIgnoreCase("")) {
