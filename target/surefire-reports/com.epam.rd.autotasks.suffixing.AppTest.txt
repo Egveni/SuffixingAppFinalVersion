@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.epam.rd.autotasks.suffixing.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.034 s <<< FAILURE! - in com.epam.rd.autotasks.suffixing.AppTest
+com.epam.rd.autotasks.suffixing.AppTest  Time elapsed: 0.032 s  <<< ERROR!
+java.io.FileNotFoundException: src\main\resources\suffixing.jar (Не удается найти указанный файл)
+	at com.epam.rd.autotasks.suffixing.AppTest.setup(AppTest.java:41)
+
